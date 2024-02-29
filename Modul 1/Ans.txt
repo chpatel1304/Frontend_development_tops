@@ -1,0 +1,60 @@
+Are the HTML tags and elements the same thing?
+
+No, HTML tags and elements are not the same thing. HTML tags are used to define elements within an HTML document. An HTML element typically consists of a start tag, content, and an end tag, though some elements are self-closing and do not require an end tag.
+What are tags and attributes in HTML?
+
+Tags in HTML are markers that define the beginning and end of elements in an HTML document. Attributes provide additional information about HTML elements and are specified within the opening tag of an element.
+What are void elements in HTML?
+
+Void elements in HTML are elements that do not have a closing tag. They self-close in the opening tag. Examples of void elements include <br>, <img>, and <input>.
+What are HTML Entities?
+
+HTML entities are special characters that are used to represent reserved characters, characters that are not easily typable, or characters that have special meaning in HTML. For example, &lt; represents the less-than sign (<) and &amp; represents the ampersand (&).
+What are different types of lists in HTML?
+
+There are three main types of lists in HTML: ordered lists (<ol>), unordered lists (<ul>), and definition lists (<dl>).
+What is the 'class' attribute in HTML?
+
+The 'class' attribute in HTML is used to specify one or more class names for an element. Classes are used to apply CSS styles or JavaScript functionality to one or more elements on a page.
+What is the difference between the 'id' attribute and the 'class' attribute of HTML elements?
+
+The 'id' attribute uniquely identifies an element within an HTML document, whereas the 'class' attribute can be used to apply a common style or functionality to multiple elements.
+What are the various formatting tags in HTML?
+
+Some of the common formatting tags in HTML include <b> (bold), <i> (italic), <u> (underline), <strong> (strong emphasis), <em> (emphasized text), <sub> (subscript), and <sup> (superscript).
+How is Cell Padding different from Cell Spacing?
+
+Cell padding in HTML defines the space between the content of a cell and its border, while cell spacing defines the space between cells in a table.
+How can we club two or more rows or columns into a single row or column in an HTML table?
+
+This can be achieved using the rowspan and colspan attributes in HTML tables. The rowspan attribute specifies the number of rows a cell should span, while the colspan attribute specifies the number of columns a cell should span.
+What is the difference between a block-level element and an inline element?
+
+Block-level elements start on a new line and take up the full width available, while inline elements do not start on a new line and only take up as much width as necessary.
+How to create a Hyperlink in HTML?
+
+Hyperlinks in HTML are created using the <a> (anchor) element with the href attribute specifying the URL of the link. For example: <a href="https://example.com">Link Text</a>.
+What is the use of an iframe tag?
+
+The <iframe> tag is used to embed another HTML document within the current HTML document. It is commonly used to display content from another website or to embed multimedia content such as videos.
+What is the use of a span tag? Explain with an example?
+
+The <span> tag is used to apply styles or scripting to a specific section of text within a larger block of content. For example: <p>This is <span style="color:red;">red</span> text.</p>.
+How to insert a picture into a background image of a web page?
+
+To insert a picture as a background image in a web page, you can use CSS background properties such as background-image. For example: body { background-image: url('image.jpg'); }.
+How are active links different from normal links?
+
+Active links usually refer to links that are currently being interacted with, for example, by a user hovering over them or clicking them. Normal links are simply links within a webpage that direct the user to another page or resource.
+What are the different tags to separate sections of text?
+
+Different tags used to separate sections of text in HTML include <div> (division), <p> (paragraph), <section>, <article>, <header>, <footer>, and <aside>.
+What is SVG?
+
+SVG stands for Scalable Vector Graphics. It is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. SVG images can be scaled to different sizes without losing quality.
+What is the difference between HTML and XHTML?
+
+XHTML (Extensible Hypertext Markup Language) is a stricter and more XML-compliant version of HTML. XHTML requires all tags to be properly nested, all tags to be closed, and all attribute values to be enclosed in quotes, among other requirements.
+What are logical and physical tags in HTML?
+
+In HTML, logical tags refer to tags that describe the structure or meaning of content, such as <header>, <nav>, <main>, and <footer>. Physical tags, on the other hand, refer to tags that describe the appearance or presentation of content, such as <b> for bold and <i> for italic.
