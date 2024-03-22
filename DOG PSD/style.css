@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    background-color: #daac00;
+}
+.header-item img{
+    padding-top: 19px;
+    width: 150px;
+}
+.header-item ul li{
+    display: inline-block;
+}
+.header-item ul a{
+    text-decoration: none;
+    margin: 0 50px;
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.serach button {
+    border: none;
+    color: white;
+    width: 71px;
+    height: 35px;
+    background-color: #00bec9;
+}
+.serach input {
+    margin-top: 22px;
+    border: none;
+    outline: none;
+    width: 274px;
+    height: 35px;
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74,74,74,0.1));
+    background-color: #fcc302;
+}
