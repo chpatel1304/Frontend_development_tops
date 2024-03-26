@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #daac00;
+    padding: 25px;
+}
+
+.header-item img {
+    width: 130px;
+}
+
+ul {
+    display: flex;
+    gap: 90px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+font-family: "Poppins"
+}
+.search{
+    height: 30px;
+    width: 200px;
+    background-color: red;
+    display: flex;
+}
+.id{
+    background-color: #fcc302;
+    border: none;
+    height: 30px;
+    width: 150px;
+}
+.search-2{
+    height: 30px;
+    width: 50px;
+    background-color: #00bec9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-solid{
+    color: whitesmoke;
+}
