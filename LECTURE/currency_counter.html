@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            background-color: antiquewhite;
+            width: 250px;
+            height: 250px;
+            padding: 100px;
+            border-radius: 50px;
+        }
+        button{
+            width: 200px;
+            height: 50px;
+            background-color: black;
+            color: white;
+        }
+
+        button:hover{
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="input_items">
+            <input type="text" placeholder="Enter Note" id="one" value="">
+            <br><br><br>
+            <input type="number" placeholder="Enter Quantity Of Notes" id="two" value="">
+            <br><br><br>
+            <div class="answer">
+                <h1>RS - </h1>
+                <h4 id="three"></h4>
+            </div>
+            <button id="for" onclick="calc()">Calcualte Currency</button>
+            <br>
+            <button onclick="on_off()">Enabled/Disabled</button>
+        </div>
+    </div>
+</body>
+<script>
+    function calc() {
+        var a = document.getElementById("one").value
+        var b = document.getElementById("two").value
+
+        var c = a * b
+
+        document.getElementById("three").textContent = c
+    }
+    function on_off(){
+        if(document.getElementById("one").disabled=="" &&
+        document.getElementById("two").disabled=="" &&
+        document.getElementById("for").disabled==""
+        ){
+            document.getElementById("one").disabled="true"
+        document.getElementById("two").disabled="true"
+        document.getElementById("for").disabled="true"
+        }
+        else{
+            document.getElementById("one").disabled=""
+        document.getElementById("two").disabled=""
+        document.getElementById("for").disabled=""
+        }
+    }
+</script>
+
+</html>
