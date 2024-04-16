@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="one"></h1>
+</body>
+<script>
+    const person = {
+        firstname:"Ekal",
+        lastname:"Sorathiya",
+        age:23,
+        number:987654321
+    }
+
+    var text=""
+
+    for(let a in person){
+        text+=person[a]+"<br>"
+    }
+    document.getElementById("one").innerHTML=text
+</script>
+</html>
