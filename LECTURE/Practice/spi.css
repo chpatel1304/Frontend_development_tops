@@ -1,0 +1,64 @@
+label{
+    font-size: 20px;
+    font-style: italic;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-color: red;
+    border-radius: 50px;
+}
+input::placeholder{
+    font-style: italic;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.marks{
+display: flex;
+justify-content: space-around;
+}
+.subject{
+box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+width: 150px;
+height: 150px;
+}
+.sub-input-1{
+width: 100px;
+border-color: blue;
+margin-top: 55px;
+}
+.sub-input-2{
+width: 100px;
+border-color: blue;
+margin-top: 12px;
+}
+.sub-input-3{
+width: 100px;
+border-color: blue;
+margin-top: 78px;
+}
+.button-class{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.button-class button{
+    width: 150px;
+    height: 50px;border-radius: 50px;
+    background-color: rgb(103, 103, 215);
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+.button-class button:hover{
+    background-color:whitesmoke;
+    color: rgb(103, 103, 215);
+}

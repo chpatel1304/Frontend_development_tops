@@ -1,0 +1,10 @@
+self.conn=self.create_conn()
+            self.cursor=self.conn.cursor()
+            self.q="insert into paitent (pname,pdob,pnum,pd,dname,pf,ppa) values(%s,%s,%s,%s,%s,%s,%s)"
+            self.args=(pname,pdob,pnum,pd,dname,pf,ppa)
+            self.cursor.execute(self.q,self.args)
+            self.conn.commit()
+            self.conn.close()
+
+            msg.showinfo("Add New Paitent","Paitent Added Successfully !!")
+            self.destroy_new_patient()
