@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .subject-python{
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+            width: 200px;
+            height: 200px;
+        }
+        .title-python{
+            display: flex;
+            justify-content: space-around;
+            background-color: aliceblue;
+            height: 70px;
+        }
+        .title-python img{
+            padding-top: 15px;
+            height: 50px;
+            width: 50px;
+        }
+        .content-python{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 130px;
+            background-image: linear-gradient(to right,rgb(88, 88, 215),rgb(240, 240, 94));
+        }
+        .content-python input{
+            margin-left: 10px;
+            width: 170px;
+            height: 25px;
+            border-radius: 50px;
+        }
+        .content-python input::placeholder{
+            font-style: italic;
+        }
+        .subject-fsd{
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+            width: 200px;
+            height: 200px;
+        }
+        .title-fsd{
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(248, 216, 236);
+            height: 70px;
+        }
+        .title-fsd img{
+            padding-top: 15px;
+            height: 50px;
+            width: 50px;
+        }
+        .content-fsd{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 130px;
+            background-image: linear-gradient(to right,rgb(255, 119, 241),rgb(203, 112, 255));
+        }
+        .content-fsd input{
+            margin-left: 10px;
+            width: 170px;
+            height: 25px;
+            border-radius: 50px;
+        }
+        .content-fsd input::placeholder{
+            font-style: italic;
+        }
+        .subject-de{
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+            width: 200px;
+            height: 200px;
+        }
+        .title-de{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(178, 238, 211);
+            height: 70px;
+        }
+        .title-de img{
+            padding-top: 15px;
+            height: 50px;
+            width: 50px;
+        }
+        .content-de{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 130px;
+            background-image: linear-gradient(to right,rgb(81, 218, 117),rgb(112, 238, 255));
+        }
+        .content-de input{
+            margin-left: 10px;
+            width: 170px;
+            height: 25px;
+            border-radius: 50px;
+        }
+        .content-de input::placeholder{
+            font-style: italic;
+        }
+        .subject-ps{
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+            width: 200px;
+            height: 200px;
+        }
+        .title-ps{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(255, 215, 215);
+            height: 70px;
+        }
+        .title-ps img{
+            padding-top: 15px;
+            height: 60px;
+            width: 60px;
+        }
+        .content-ps{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 130px;
+            background-image: linear-gradient(to right,rgb(215, 88, 96),rgb(240, 94, 218));
+        }
+        .content-ps input{
+            margin-left: 10px;
+            width: 170px;
+            height: 25px;
+            border-radius: 50px;
+        }
+        .content-ps input::placeholder{
+            font-style: italic;
+        }
+        .subject-etc{
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+            width: 200px;
+            height: 200px;
+        }
+        .title-etc{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(233, 253, 168);
+            height: 70px;
+        }
+        .title-etc img{
+            padding-top: 15px;
+            height: 50px;
+            width: 70px;
+        }
+        .content-etc{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 130px;
+            background-image: linear-gradient(to right,rgb(222, 250, 183),rgb(220, 241, 53));
+        }
+        .content-etc input{
+            margin-left: 10px;
+            width: 170px;
+            height: 25px;
+            border-radius: 50px;
+        }
+        .content-etc input::placeholder{
+            font-style: italic;
+        }
+        .subject-ci{
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+            width: 200px;
+            height: 200px;
+        }
+        .title-ci{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(255, 255, 255);
+            height: 70px;
+        }
+        .title-ci img{
+            padding-top: 15px;
+            height: 50px;
+            width: 70px;
+        }
+        .content-ci{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 130px;
+            background-image: linear-gradient(to right,green,white,orange);
+        }
+        .content-ci input{
+            margin-left: 10px;
+            width: 170px;
+            height: 25px;
+            border-radius: 50px;
+        }
+        .content-ci input::placeholder{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="subject-python">
+            <div class="title-python">
+                <img src="python.png" alt="">
+                <h1>Python</h1>
+            </div>
+            <div class="content-python">
+                <input type="text" placeholder="            Theory Marks">
+                <input type="text" placeholder="          Practical Marks">
+            </div>
+        </div>
+         
+        <div class="subject-fsd">
+            <div class="title-fsd">
+                <img src="html-removebg-preview.png" alt="">
+                <h1>FSD</h1>
+            </div>
+            <div class="content-fsd">
+                <input type="text" placeholder="            Theory Marks">
+                <input type="text" placeholder="          Practical Marks">
+            </div>
+        </div>
+        
+        <div class="subject-de">
+            <div class="title-de">
+                <img src="de1.svg" alt="">
+                <h1>DE</h1>
+            </div>
+            <div class="content-de">
+                <input type="text" placeholder="            Theory Marks">
+                <input type="text" placeholder="          Practical Marks">
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="main">
+        
+        <div class="subject-ps">
+            <div class="title-ps">
+                <img src="ps-removebg-preview.png" alt="">
+                <h1>PS</h1>
+            </div>
+            <div class="content-ps">
+                <input type="text" placeholder="            Theory Marks">
+            </div>
+        </div>
+        
+        <div class="subject-etc">
+            <div class="title-etc">
+                <img src="etc1-removebg-preview.png" alt="">
+                <h1>ETC</h1>
+            </div>
+            <div class="content-etc">
+                <input type="text" placeholder="            Theory Marks">
+            </div>
+        </div>
+        
+        <div class="subject-ci">
+            <div class="title-ci">
+                <img src="flag.png" alt="">
+                <h1>CI</h1>
+            </div>
+            <div class="content-ci">
+                <input type="text" placeholder="            Theory Marks">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
