@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, repellendus qui neque optio illum nesciunt temporibus maxime eligendi voluptates repudiandae, aliquid explicabo nihil ab accusamus et harum! Natus vitae inventore, esse et a fugiat tempore dolorem architecto cum itaque voluptatum facilis laboriosam, neque iure laborum corporis earum, dolor ut doloremque.</p>
+    <button id="one">Hide</button>
+    <button class="main">Show</button>
+</body>
+<script>
+    $(document).ready(function(){
+        $("#one").click(function(){
+            $("p").hide(3000)
+        })
+    })
+    $(document).ready(function(){
+        $(".main").click(function(){
+            $("p").show(3000)
+        })
+    })
+</script>
+</html>
