@@ -4,206 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .main{
-            display: flex;
-            justify-content: space-evenly;
-        }
-        .subject-python{
-            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-            width: 200px;
-            height: 200px;
-        }
-        .title-python{
-            display: flex;
-            justify-content: space-around;
-            background-color: aliceblue;
-            height: 70px;
-        }
-        .title-python img{
-            padding-top: 15px;
-            height: 50px;
-            width: 50px;
-        }
-        .content-python{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            height: 130px;
-            background-image: linear-gradient(to right,rgb(88, 88, 215),rgb(240, 240, 94));
-        }
-        .content-python input{
-            margin-left: 10px;
-            width: 170px;
-            height: 25px;
-            border-radius: 50px;
-        }
-        .content-python input::placeholder{
-            font-style: italic;
-        }
-        .subject-fsd{
-            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-            width: 200px;
-            height: 200px;
-        }
-        .title-fsd{
-            display: flex;
-            justify-content: space-around;
-            background-color: rgb(248, 216, 236);
-            height: 70px;
-        }
-        .title-fsd img{
-            padding-top: 15px;
-            height: 50px;
-            width: 50px;
-        }
-        .content-fsd{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            height: 130px;
-            background-image: linear-gradient(to right,rgb(255, 119, 241),rgb(203, 112, 255));
-        }
-        .content-fsd input{
-            margin-left: 10px;
-            width: 170px;
-            height: 25px;
-            border-radius: 50px;
-        }
-        .content-fsd input::placeholder{
-            font-style: italic;
-        }
-        .subject-de{
-            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-            width: 200px;
-            height: 200px;
-        }
-        .title-de{
-            display: flex;
-            justify-content: space-evenly;
-            background-color: rgb(178, 238, 211);
-            height: 70px;
-        }
-        .title-de img{
-            padding-top: 15px;
-            height: 50px;
-            width: 50px;
-        }
-        .content-de{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            height: 130px;
-            background-image: linear-gradient(to right,rgb(81, 218, 117),rgb(112, 238, 255));
-        }
-        .content-de input{
-            margin-left: 10px;
-            width: 170px;
-            height: 25px;
-            border-radius: 50px;
-        }
-        .content-de input::placeholder{
-            font-style: italic;
-        }
-        .subject-ps{
-            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-            width: 200px;
-            height: 200px;
-        }
-        .title-ps{
-            display: flex;
-            justify-content: space-evenly;
-            background-color: rgb(255, 215, 215);
-            height: 70px;
-        }
-        .title-ps img{
-            padding-top: 15px;
-            height: 60px;
-            width: 60px;
-        }
-        .content-ps{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            height: 130px;
-            background-image: linear-gradient(to right,rgb(215, 88, 96),rgb(240, 94, 218));
-        }
-        .content-ps input{
-            margin-left: 10px;
-            width: 170px;
-            height: 25px;
-            border-radius: 50px;
-        }
-        .content-ps input::placeholder{
-            font-style: italic;
-        }
-        .subject-etc{
-            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-            width: 200px;
-            height: 200px;
-        }
-        .title-etc{
-            display: flex;
-            justify-content: space-evenly;
-            background-color: rgb(233, 253, 168);
-            height: 70px;
-        }
-        .title-etc img{
-            padding-top: 15px;
-            height: 50px;
-            width: 70px;
-        }
-        .content-etc{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            height: 130px;
-            background-image: linear-gradient(to right,rgb(222, 250, 183),rgb(220, 241, 53));
-        }
-        .content-etc input{
-            margin-left: 10px;
-            width: 170px;
-            height: 25px;
-            border-radius: 50px;
-        }
-        .content-etc input::placeholder{
-            font-style: italic;
-        }
-        .subject-ci{
-            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-            width: 200px;
-            height: 200px;
-        }
-        .title-ci{
-            display: flex;
-            justify-content: space-evenly;
-            background-color: rgb(255, 255, 255);
-            height: 70px;
-        }
-        .title-ci img{
-            padding-top: 15px;
-            height: 50px;
-            width: 70px;
-        }
-        .content-ci{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            height: 130px;
-            background-image: linear-gradient(to right,green,white,orange);
-        }
-        .content-ci input{
-            margin-left: 10px;
-            width: 170px;
-            height: 25px;
-            border-radius: 50px;
-        }
-        .content-ci input::placeholder{
-            font-style: italic;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="header">
+        <img src="BB-removebg-preview.png" alt="Logo">
+        <img src="Tren-removebg-preview.png" alt="">
+        <select name="sem">
+            <option value="sem1">Sem 1</option>
+            <option value="sem2">Sem 2</option>
+            <option value="sem3">Sem 3</option>
+        </select>
+    </div>
+    <div class="form-info">
+        <form action="">
+            <table cellspacing="50">
+                <tr>
+                    <td style="font-style: italic; font-size: 25px;">Name : </td>
+                    <td><input type="text" placeholder="   Your Full Name "></td>
+                </tr>
+                <tr>
+                    <td style="font-style: italic; font-size: 25px;">Enrollment Number : </td>
+                    <td><input type="text" placeholder="   Your Valid Enrollment "></td>
+                </tr>
+                <tr>
+                    <td style="font-style: italic; font-size: 25px;">Roll Number : </td>
+                    <td><input type="text" placeholder="   Roll Number "></td>
+                    <!-- <td>(Please Enter That Roll Number of Sem for which You are genrating SPI)</td> -->
+                </tr>
+            </table>
+        </form>
+    </div>
+    <br><br>
     <div class="main">
         <div class="subject-python">
             <div class="title-python">
@@ -271,5 +103,35 @@
             </div>
         </div>
     </div>
+    <br><br><br><br>
+    <div class="button-class">
+        <button>GENRATE SPI</button>
+        <button>RESET</button>
+    </div>
+    <br><br><br>
+    <footer>
+        <div class="footer-logo">
+            <img src="BB-removebg-preview.png" alt="Logo">
+        </div>
+        <div class="footer-creators">
+            <div class="creator">
+                <p>Created by :</p>
+            </div>
+            <div class="creator">
+                <p>Chirag Patel</p>
+                <a href="https://github.com/chpatel1304"><img src="github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/chirag-patel-727a27303/"><img src="linkedin.jpg" alt="LinkedIn"></a>
+            </div>
+            <div class="creator">
+                <p>Ekal Sorathiya</p>
+                <a href="https://github.com/EkalSorathiya"><img src="github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/ekal-sorathiya-0bab4226b/"><img src="linkedin.jpg" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="footer-info">
+            <p>These are rough calculations and not authorized as perfect SPI estimates.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
