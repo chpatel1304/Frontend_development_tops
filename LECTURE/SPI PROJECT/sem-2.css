@@ -23,9 +23,9 @@ body{
 select {
     width: 150px;
     border-width: 5px;
-    background-color: plum;
+    background-color: #5058e9;
     border-radius: 50px;
-    border-color:purple;
+    border-color:#383b74;
     padding: 5px 10px;     /* Adds padding inside the select box */
     cursor: pointer;       /* Changes the cursor to a pointer when hovering over the select box */
 }
@@ -41,7 +41,7 @@ select {
 }
 .form-info input{
     border-width: 3px;
-    border-color: purple;
+    border-color: blue;
     border-radius: 50px;
     height: 30px;
 }
@@ -250,19 +250,19 @@ select {
     width: 200px;
     height: 40px;
     border: none;
-    background-color: rgb(224, 200, 224);
-    color: rgb(106, 1, 106);
+    background-color: #383b74;
+    color:white;
 }
 .button-class button:hover{
-    background-color: rgb(106, 1, 106);
-    color:rgb(224, 200, 224) ;
+    background-color: white;
+    color:#383b74 ;
 }
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #8c6a8e; /* Dark purple shade */
+    background-color: #383b74; /* Dark purple shade */
     color: #e6e6ff; /* Light purple shade */
 }
 
